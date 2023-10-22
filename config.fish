@@ -49,6 +49,7 @@ set -g theme_color_scheme dark
 set -g theme_project_dir_length 1
 set -g theme_newline_cursor yes
 set -g theme_newline_prompt '$ '
+set -U fish_key_bindings fish_default_key_bindings
 
 set fish_greeting "FUNNN"
 alias gst="git status"
